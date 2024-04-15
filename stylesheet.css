@@ -25,8 +25,7 @@
     border-radius: 15px;
 }
 #navelements a:hover{
-    background-color: brown;
-    color: black;
+    border: 2px solid brown;
 }
 .titlepart{
     height: 500px;
@@ -48,15 +47,54 @@
     background-color: black;
     font-size: 20px;
     border-radius: 15px;
-    border-color: black;
+    border: 2px solid brown;
     color: white;
     padding: 7px 15px 7px 15px;
 }
 #explorebutton:hover{
     background-color: brown;
     color: black;
+    border: 2px solid black;
     border-width: 2px;
 }
-.Trending h1{
+.Trending{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0px 0px 60px 0px;
+}
+#trendingtiles{
+    display: flex;
+    flex-direction: row;
+    height: 375px;
+    width: 100%;
+    justify-content: space-evenly;
+}    
+.ttiles{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 2.5px solid brown;
+    width:280px;
+    overflow: hidden;
+    object-fit: contain;
+    margin: 20px;
+}
+.ttiles img{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+#image1{
+    height: 60% ;
+}
+.headings{
+    text-align: center;
+    color: azure; 
+    font-size: 40px;
+    margin:10px;
+}
+#description{
+    padding: 10px;
     text-align: center;
 }
